@@ -22,6 +22,6 @@ axios.get('https://52.15.99.167/iot-car-control/back-end/apis/getRegistro.php')
 }
 
 // Repite la función cada 2 segundos
-setInterval(callApiRequest, 2000);
+setInterval(callApiRequest, 1000);
 
 
